@@ -40,6 +40,7 @@ a{color:inherit}
 .skip:focus{top:10px}
 :root[data-theme="light"] .btn.primary,:root[data-theme="light"] .skip{color:#fff}
 strong{font-weight:600}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .wrap{width:min(1120px,100% - 32px);margin-inline:auto}
 h1,h2,h3{font-family:var(--font-head);line-height:1.1;margin:0}
 h2{font-size:clamp(1.9rem,4vw,2.8rem);font-weight:700;letter-spacing:-.02em}
@@ -472,7 +473,7 @@ footer{padding:32px 0 48px;border-top:1px solid var(--line);color:var(--muted);f
       <p class="lede">The easiest way to reach me is email. LinkedIn works too.</p>
       <a class="mail" href="mailto:reshmas.regal@gmail.com">reshmas.regal@gmail.com</a>
       <div class="contact-links">
-        <a class="btn" href="https://www.linkedin.com/in/reshma-subramanian" target="_blank" rel="noopener">LinkedIn (opens in a new tab)</a>
+        <a class="btn" href="https://www.linkedin.com/in/reshma-subramanian" target="_blank" rel="noopener">LinkedIn<span class="sr"> (opens in a new tab)</span></a>
         <a class="btn" href="reshma-s-resume.pdf" download="Reshma-S-Physical-Design-Engineer-Resume.pdf">Download CV (PDF)</a>
       </div>
     </div>
